@@ -1,6 +1,10 @@
-# TemplateMahdi
+# MindFreaak
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
+
+## All the Data
+I Usually don't store data in components, there's a service directory where i have all the data in Info.servce.ts
+Just Add as much data as you want in the JSON, the website will take shape.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -24,7 +28,12 @@ Before running the tests make sure you are serving the app via `ng serve`.
 
 ## Deploying to GitHub Pages
 
-Run `ng github-pages:deploy` to deploy to GitHub Pages.
+Run `ng build` Then copy the content in the `dist/` directory into the other repo.
+This is your Dev Repo, and the other is your Production repo
+That's why i always say: "Let's go into production :3"
+# Important!
+Be carefull not to delete the files in `dist/` called "CNAME" and "README.md"
+all the other file are generated buy Angular, Thus replacable by the new Build
 
 ## Further help
 
