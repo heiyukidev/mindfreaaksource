@@ -1,0 +1,12 @@
+<div class="col s12 m12 l12 card-panel z-depth-5">
+  <div>
+    <img class="responsive-img" src="https://scontent.ftun2-1.fna.fbcdn.net/v/t1.0-9/12096514_10206772290178887_7324805604309466744_n.jpg?oh=7db55aafb8532ac6fc89916cd9c2cccc&oe=59700208">
+  </div>
+
+  <div>
+    <h1>{{data.firstName}} {{data.lastName}}</h1>
+    <h3>{{data.nickName}}</h3>
+  </div>
+  <altcontent *ngFor="let d of data.data" [title]="d.title" [icon]="d.icon" [text]="d.text"></altcontent>
+  <skills title="Professional Skills" [data]="data.skills"></skills>
+</div>

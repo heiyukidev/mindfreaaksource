@@ -1,0 +1,4 @@
+<div class="col s12 m12 l12 card-panel blue lighten-1  z-depth-5">
+     <div class="card-panel "><h1>{{title}}</h1></div>
+    <content *ngFor="let d of data" [title]="d.title" [date]="d.date" [text]="d.text"></content>
+</div>
